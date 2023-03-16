@@ -1,0 +1,27 @@
+* {
+    font-family: "Courier", "Courier New", sans-serif;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+img {
+    height: 250px;
+    width: auto;
+}
+
+ul li {
+    color: green;
+}
+
+ol li {
+    color: blue;
+}
+
+p {
+    color: rgb(153, 0, 153);
+}
+
+
+
