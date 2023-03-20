@@ -2,13 +2,23 @@
     font-family: "Courier", "Courier New", sans-serif;
 }
 
-h1 {
+.main.header {
     font-weight: bolder;
+    background-color: orange;
+    text-align: center;
+}
+
+.sub.header {
+    font-weight: bold;
+    background-color: skyblue;
+    text-align: center;
 }
 
 img {
-    height: 250px;
-    width: auto;
+    height: auto;
+    width: 500px;
+    margin-left: 420px;
+    margin-right: auto;
 }
 
 ul li {
@@ -21,6 +31,13 @@ ol li {
 
 p {
     color: rgb(153, 0, 153);
+    text-align: justify;
+    text-indent: 30px;
+}
+
+ol,
+li {
+    text-align: center;
 }
 
 
