@@ -1,43 +1,68 @@
+/*
+    Hex codes: Mustard #E3B448, Sage #CBD18F, Forest Green #3A6B35
+*/
+
 * {
     font-family: "Courier", "Courier New", sans-serif;
 }
 
-.main.header {
+h1.main-header {
     font-weight: bolder;
-    background-color: orange;
+    background-color: #CBD18F;
+    display: block;
+    margin: 0px;
+    padding: 10px;
+    border: 2px solid black;
     text-align: center;
 }
 
-.sub.header {
-    font-weight: bold;
-    background-color: skyblue;
-    text-align: center;
+img.img-container {
+    display: inline;
+    width: auto;
+    height: 183px;
+    vertical-align: middle;
+    margin: 10px;
 }
 
-img {
+#main {
+    margin: 10px;
+    width: auto;
+    height: 183px;
+}
+div.description {
+    display: inline-block;
+    background-color: #E3B448;
+    max-width: 48%;
+    padding: 10px;
+    border: solid black 2px;
+}
+
+div.procedure {
+    display: inline-block;
+    background-color: #89CFF0;
+    max-width: 48%;
+    padding: 10px;
+    border: solid black 2px;
+    margin: -12px;
+    margin-top: 0%;
+    vertical-align: top;
+}
+
+div.recommendation {
+    display: inline;
+    vertical-align: bottom;
+}
+
+.recommendation img {
+    height: 230px;
+    width: auto;
+    margin: 5px;
+    opacity: 75%;
+}
+
+div.description img {
+    width: 99%;
     height: auto;
-    width: 500px;
-    margin-left: 420px;
-    margin-right: auto;
-}
-
-ul li {
-    color: green;
-}
-
-ol li {
-    color: blue;
-}
-
-p {
-    color: rgb(153, 0, 153);
-    text-align: justify;
-    text-indent: 30px;
-}
-
-ol,
-li {
-    text-align: center;
 }
 
 
